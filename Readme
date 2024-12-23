@@ -1,0 +1,10 @@
+Reads PCAP log file and converts it into json format.
+
+parser PATH -o OUT_PATH
+
+Arguments: 
+PATH - path to pcap file
+OUT_PATH - path to output  file
+
+An exmaple of execution call:
+parser "test.pcap" -o output.json
